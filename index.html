@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+
+
+
+  </head>
+
+<body>
+<div class="container">
+<h1>Crystal Collector</h1>
+<br>
+<h3>Directions</h3>
+<br>
+<ol>
+	<li>First, you will be given a random number at the start of the game.</li>
+	<li>Second, There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+	<li>Third, you win the game by matching your total score to the random number, you lose the game if your total goes above the random number.</li>
+	<li>Forth, the value of each crystal is hidden from you until you click on one.</li>
+	<li>Fifth, each time whe the game restarts, the game will change the values of each crystal</li>
+</ol>
+	<br>
+
+		<div class="scoreBoard">
+			<h2>Try to Score this Number</h2>
+			<div class="randomNumber">_</div>
+			<br>
+			<div class="score">
+				<h2>Wins:<div id="wins">_</div></h2><br>
+				<h2>Losses:<div id="losses">_</div></h2><br>
+			</div>
+		</div>
+
+		<div class="overallPoints">
+		<h2>Your Total Score is:</h2>
+		<div class="add"></div>
+	</div>
+
+
+
+	<br>
+	<div class="crystals">
+	<img src="assets/images/redgem.svg" id="red">
+	<img src="assets/images/bluegem.svg" id="blue">
+	<img src="assets/images/greengem.svg" id="green">
+	<img src="assets/images/purplegem.svg" id="purple">
+	</div>
+
+
+
+
+
+</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

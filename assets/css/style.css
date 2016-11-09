@@ -1,0 +1,37 @@
+ body {
+	font-family:helvetica;
+	font-family: 'New Rocker', cursive;
+	background-color:#18212a;
+	color:white;
+ }
+
+ .container {
+ 	width:70%;
+ 	margin:0 auto;
+ }
+
+ h1 {
+ 	margin-top:40px;
+ 	font-size:24px;
+ 	font-weight:bold;
+ 	text-align:center;
+ }
+
+ h3 {
+ 	font-size:18px;
+ 	font-weight:bold;
+ 	text-align:center;
+ 	color:#f7941e;
+ }
+
+ ol {
+ 	list-style-type:square;
+ 	color:#3f6f9c;
+ }
+
+ #red, #blue, #green, #purple {
+ 	width:150px;
+ 	margin-right:10px;
+ }
+
+

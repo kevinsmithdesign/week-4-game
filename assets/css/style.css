@@ -3,17 +3,26 @@
 	font-family: 'New Rocker', cursive;
 	background-color:#18212a;
 	color:white;
+	letter-spacing:1px;
  }
 
  .container {
  	width:70%;
- 	margin:0 auto;
+ 	margin:0 auto; 
  }
 
  h1 {
- 	margin-top:40px;
- 	font-size:24px;
+ 	margin-top:20px;
+	margin-left:-10px;
+
+ 	font-size:32px;
  	font-weight:bold;
+ 	text-align:center;
+
+
+ }
+
+ h2 {
  	text-align:center;
  }
 
@@ -21,17 +30,157 @@
  	font-size:18px;
  	font-weight:bold;
  	text-align:center;
- 	color:#f7941e;
+ 	color:#18212a;
+ }
+
+ h3:hover {
+	color:white;
  }
 
  ol {
  	list-style-type:square;
- 	color:#3f6f9c;
+ 	margin-left:60px;
+ 	color:#fff;
+ 	position:relative;
+ 	top:-205px;
+ 	width:670px;
+ 	line-height:25px;
+ }
+
+ .directions {
+	margin-left:45px; 
+	
+	margin-top:;
+	width:816px;
  }
 
  #red, #blue, #green, #purple {
  	width:150px;
  	margin-right:10px;
  }
+
+ .resetbutton {
+ 	width:150px;
+ 	margin-right:10px;
+ }
+
+
+ .randomNumber {
+	text-align:center;
+} 
+
+#overallPoints {
+	text-align:center;
+}
+
+#wins {
+	text-align:center;
+}
+
+#losses {
+	text-align:center;
+}
+
+.add {
+	text-align:center;
+}
+
+.crystals {
+	margin-left:50px;
+	margin-top:-320px; 
+
+}
+
+.section1 {
+	margin-left:45px;
+	margin-top:-190px;
+	width:816px;
+	letter-spacing:1px;
+	/* position:relative; */ 
+
+}
+
+ .scoreBoard {
+	background-color:#18212a;
+	border-radius:10px;
+	width:310px;
+	padding:15px;
+	margin-left:50px;
+	margin-top:-5px;
+	border:#65737e solid 2px;
+
+	/* position:relative;
+	top:-200px; */
+}
+
+#one {
+	position:relative;
+	top:-200px;
+}
+
+.overallPoints {
+	background-color:#18212a;
+	border-radius:10px;
+	width:310px;
+	padding:15px;
+	margin-left:50px;
+	border:#65737e solid 2px;
+	/* position:relative;
+	top:-190px; */
+	
+}
+
+#two {
+	position:relative;
+	top:-190px;
+}
+
+.score {
+	background-color:#18212a;
+	border-radius:10px;
+	width:310px;
+	padding:15px;
+	margin-left:420px;
+	margin-top:-8px;
+	border:#65737e solid 2px;
+	/* position:relative;
+	top:-356px;*/
+}
+
+#three {
+	position:relative;
+	top:-356px;
+}
+
+.score2 {
+	background-color:#18212a;
+	border-radius:10px;
+	width:310px;
+	padding:15px;
+	margin-left:420px;
+	border:#65737e solid 2px;
+	/* position:relative;
+	top:-345px; */
+} 
+
+#four {
+	position:relative;
+	top:-345px;
+}
+
+#view {
+	padding:10px;
+	width:100px;
+	background-color:#f7941e;
+	margin: auto; 
+
+	border-radius:5px;
+	
+}
+
+
+
+
+
 
 

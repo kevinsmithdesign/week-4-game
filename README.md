@@ -1,6 +1,6 @@
 # week-4-game
 
-In this assignment I experienced with jQuery for the first time. I created a fun interactive game for the web browser.This time, the app dynamically updates your HTML page with the jQuery library. The game is called Crystal Collectors, rules below:
+In this assignment I experienced with jQuery for the first time. I created a fun interactive game for the web browser. This time, the app dynamically updates your HTML page with the jQuery library. The game is called Crystal Collectors, rules below:
 
 • There will be four crystals displayed as buttons on the page.
 
